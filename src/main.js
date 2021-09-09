@@ -74,3 +74,6 @@ $(document).on('keypress', (e) => {
         }
     })
 })
+$('#input').on('keypress',(e)=> {
+    e.stopPropagation();
+})//键盘快解跳转和input输入冲突解决

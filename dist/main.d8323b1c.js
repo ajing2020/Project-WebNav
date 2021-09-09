@@ -164,5 +164,8 @@ $(document).on('keypress', function (e) {
         }
     });
 });
+$('#input').on('keypress', function (e) {
+    e.stopPropagation();
+}); //键盘快解跳转和input输入冲突解决
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.450f4997.map
+//# sourceMappingURL=main.d8323b1c.map
