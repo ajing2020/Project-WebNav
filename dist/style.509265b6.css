@@ -34,11 +34,7 @@ body{background: #eee;}
         margin-right: auto;
     }
 }
-@media(max-width:500px){
-    .searchForm{
-        background: red;
-    }
-}
+
 .searchForm>input{ 
     width: 100%;
     margin-right: 10px;
